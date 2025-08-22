@@ -7,7 +7,7 @@ import axios from 'axios'
 import { i18n } from './locales/i18n'
 
 // Axios base config
-axios.defaults.baseURL = 'http://127.0.0.1:8000'
+axios.defaults.baseURL = import.meta.env.VITE_API_URL
 axios.interceptors.request.use((config) => {
   const token = localStorage.getItem('token')
   if (token) {
