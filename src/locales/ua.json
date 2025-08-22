@@ -1,0 +1,90 @@
+{
+  "general": {
+    "page404": "Сторінку не знайдено",
+    "toMain": "На головну",
+    "confirm": {
+      "title": "Видалити задачу?",
+      "message": "Ви дійсно хочете видалити задачу '{name}'?"
+    },
+    "buttons": {
+      "create": "Створити",
+      "update": "Оновити",
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "logout": "Вийти",
+      "login": "Увійти",
+      "register": "Реєстрація",
+      "signup": "Зареєструватись",
+      "choose_file": "Вибрати файл",
+      "cancel": "Скасувати"
+    },
+    "navigationLinks": {
+      "home": "Головна",
+      "todos": "Справи"
+    },
+    "status": {
+      "pending": "В очікуванні",
+      "done": "Виконано",
+      "paused": "Призупинено",
+      "cancelled": "Скасовано"
+    },
+    "priority": {
+      "low": "Низька",
+      "medium": "Середня",
+      "high": "Висока"
+    },
+    "error": "Помилка"
+  },
+  "todoList": {
+    "emptyMessage": "Список задач порожній.",
+    "mainMenuTitle": "Список справ",
+    "image": "Зображення",
+    "name": "Назва",
+    "priority": "Важливість",
+    "status": "Статус",
+    "actions": "Дії",
+    "no_image": "Без зображення",
+    "create": "Створити новий"
+  },
+  "todoEdit": {
+    "mainMenuTitle": "Редагування справи",
+    "add": "Додати справу",
+    "edit": "Редагувати справу",
+    "title": "Назва",
+    "priority": "Важливість",
+    "status": "Статус",
+    "no_image": "Без зображення",
+    "image": "Зображення",
+    "file": "Файл",
+    "base64": "Base64",
+    "url": "URL",
+    "create": "Створити",
+    "update": "Оновити",
+    "preview": "Попередній перегляд"
+  },
+  "login": {
+    "mainMenuTitle": "Вхід",
+    "email": "Електронна пошта",
+    "email_placeholder": "Введіть email",
+    "password": "Пароль",
+    "password_placeholder": "Введіть пароль"
+  },
+  "register": {
+    "mainMenuTitle": "Реєстрація",
+    "name": "Ім'я",
+    "name_placeholder": "Введіть ім'я",
+    "email": "Електронна пошта",
+    "email_placeholder": "Введіть email",
+    "password": "Пароль",
+    "password_placeholder": "Введіть пароль",
+    "password_confirm": "Підтвердіть пароль",
+    "password_confirm_placeholder": "Повторіть пароль"
+  },
+  "home": {
+    "mainMenuTitle": "Головна"
+  },
+  "app": {
+    "name": "Трекер справ",
+    "guest": "Гість"
+  }
+}

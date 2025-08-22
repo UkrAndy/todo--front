@@ -1,0 +1,6 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="30" width="100" height="60" rx="12" fill="#f3f3f3" stroke="#d0d0d0" stroke-width="3"/>
+  <path d="M30 70 Q60 40 90 70" stroke="#b0b8c9" stroke-width="4" fill="none"/>
+  <circle cx="60" cy="60" r="10" fill="#b0b8c9"/>
+  <text x="60" y="100" text-anchor="middle" fill="#b0b8c9" font-size="16" font-family="Arial">No tasks</text>
+</svg>

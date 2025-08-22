@@ -1,0 +1,90 @@
+{
+  "general": {
+    "page404": "Page not found",
+    "toMain": "Go to main page",
+    "confirm": {
+      "title": "Delete task?",
+      "message": "Are you sure you want to delete the task '{name}'?"
+    },
+    "buttons": {
+      "create": "Create",
+      "update": "Update",
+      "edit": "Edit",
+      "delete": "Delete",
+      "logout": "Logout",
+      "login": "Login",
+      "register": "Register",
+      "signup": "Sign Up",
+      "choose_file": "Choose file",
+      "cancel": "Cancel"
+    },
+    "navigationLinks": {
+      "home": "Home",
+      "todos": "Todos"
+    },
+    "status": {
+      "pending": "Pending",
+      "done": "Done",
+      "paused": "Paused",
+      "cancelled": "Cancelled"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "error": "Error"
+  },
+  "todoList": {
+    "emptyMessage": "The task list is empty.",
+    "mainMenuTitle": "ToDo List",
+    "image": "Image",
+    "name": "Name",
+    "priority": "Priority",
+    "status": "Status",
+    "actions": "Actions",
+    "no_image": "No image",
+    "create": "Create New"
+  },
+  "todoEdit": {
+    "mainMenuTitle": "Edit ToDo",
+    "add": "Add ToDo",
+    "edit": "Edit ToDo",
+    "title": "Title",
+    "priority": "Priority",
+    "status": "Status",
+    "no_image": "No image",
+    "image": "Image",
+    "file": "File",
+    "base64": "Base64",
+    "url": "URL",
+    "create": "Create",
+    "update": "Update",
+    "preview": "Preview"
+  },
+  "login": {
+    "mainMenuTitle": "Login",
+    "email": "Email",
+    "email_placeholder": "Enter your email",
+    "password": "Password",
+    "password_placeholder": "Enter your password"
+  },
+  "register": {
+    "mainMenuTitle": "Register",
+    "name": "Name",
+    "name_placeholder": "Enter your name",
+    "email": "Email",
+    "email_placeholder": "Enter your email",
+    "password": "Password",
+    "password_placeholder": "Enter your password",
+    "password_confirm": "Confirm Password",
+    "password_confirm_placeholder": "Repeat your password"
+  },
+  "home": {
+    "mainMenuTitle": "Home"
+  },
+  "app": {
+    "name": "ToDo Tracker",
+    "guest": "Guest"
+  }
+}

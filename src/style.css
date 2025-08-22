@@ -1,0 +1,162 @@
+/* --- THEME VARIABLES AND GLOBALS --- */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Theme variables */
+  --color-bg: #ffffff;
+  --color-text: #213547;
+  --color-header: #fff;
+  --color-header-shadow: 0 2px 8px #0001;
+  --color-link: #646cff;
+  --color-link-hover: #535bf2;
+  --color-btn-bg: #f9f9f9;
+  --color-btn-text: #1a1a1a;
+  --color-btn-border: #646cff;
+  --color-accent: #1976d2;
+  --color-card-bg: #fff;
+  --color-card-shadow: 0 4px 24px 0 rgba(60, 60, 60, 0.1),
+    0 1.5px 6px 0 rgba(60, 60, 60, 0.08);
+}
+
+[data-theme='dark'] {
+  --color-bg: #181a20;
+  --color-text: #f3f3f3;
+  --color-header: #23242a;
+  --color-header-shadow: 0 2px 8px #0008;
+  --color-link: #8ab4f8;
+  --color-link-hover: #a5c8fa;
+  --color-btn-bg: #23242a;
+  --color-btn-text: #f3f3f3;
+  --color-btn-border: #8ab4f8;
+  --color-accent: #ffd600;
+  --color-card-bg: #23242a;
+  --color-card-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.25),
+    0 1.5px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.3s, color 0.3s;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-link);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--color-link-hover);
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--color-btn-border);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  cursor: pointer;
+  transition: border-color 0.25s, background 0.3s, color 0.3s;
+}
+button:hover {
+  border-color: var(--color-link);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto var(--color-accent);
+}
+
+/* Header theming */
+/* Header theming */
+.header {
+  display: flex;
+  align-items: center;
+  background: var(--color-header);
+  padding: 0;
+  box-shadow: var(--color-header-shadow);
+  margin-bottom: 0;
+  min-height: 64px;
+  width: 100%;
+  z-index: 10;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+/* Main menu theming */
+.main-menu {
+  display: flex;
+  gap: 1rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.menu-link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.menu-link.router-link-exact-active {
+  color: var(--color-accent);
+}
+
+.card {
+  padding: 2em;
+  background: var(--color-card-bg);
+  box-shadow: var(--color-card-shadow);
+  border-radius: 12px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+#app {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
